@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "google-images-scraper"
+version = "1.0.0"
+description = "A robust, modular, and production-grade Google Images Scraper for ML datasets."
+readme = "README.md"
+requires-python = ">=3.11"
+authors = [
+    { name = "Senior Python Engineer" }
+]
+dependencies = [
+    "requests>=2.31.0",
+    "pillow>=10.2.0",
+    "pyyaml>=6.0.1",
+    "playwright>=1.40.0",
+    "playwright-stealth>=2.0.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.0.0",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = ["test_*.py"]
+python_functions = ["test_*"]

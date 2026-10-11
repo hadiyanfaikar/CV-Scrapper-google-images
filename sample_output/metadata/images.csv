@@ -1,0 +1,11 @@
+filename,keyword,image_url,source_url,width,height,format,file_size,download_status
+sports_car_0001_8f1a2c3b.jpg,sports car,https://images.unsplash.com/photo-1503376780353-7e6692767b70,https://unsplash.com/photos/sports-car,1920,1080,JPEG,328450,success
+sports_car_0002_5e4d3c2a.png,sports car,https://upload.wikimedia.org/wikipedia/commons/a/a0/Porsche_356_No._1_Roadster.png,https://commons.wikimedia.org/wiki/File:Porsche_356.png,1280,720,PNG,845120,success
+sports_car_0003_d1e2f3a4.webp,sports car,https://cdn.motor1.com/images/mgl/porsche-911-gt3.webp,https://www.motor1.com/reviews/porsche-gt3,1024,768,WEBP,194200,success
+,sports car,https://example.com/duplicate_car.jpg,https://example.com/article,1920,1080,JPEG,328450,skipped_duplicate
+,sports car,https://example.com/tiny_icon.png,https://example.com/blog,64,64,PNG,4096,failed_validation_dimensions_64x64_below_minimum_150x150
+,sports car,https://example.com/unsupported.bmp,https://example.com/archive,800,600,BMP,1440000,failed_validation_format_BMP_not_allowed
+,sports car,https://broken-domain.net/not-found.jpg,https://broken-domain.net/post,,,,failed_http_404
+truk_logistik_0001_1a2b3c4d.jpg,truk logistik,https://upload.wikimedia.org/wikipedia/commons/9/98/Mercedes_Actros_Truck.jpg,https://commons.wikimedia.org/wiki/File:Actros.jpg,2048,1536,JPEG,612800,success
+truk_logistik_0002_7a8b9c0d.jpg,truk logistik,https://images.pexels.com/photos/2199293/pexels-photo-2199293.jpeg,https://www.pexels.com/photo/cargo-truck-on-road/,1920,1280,JPEG,489200,success
+sepeda_motor_0001_3b4c5d6e.jpg,sepeda motor,https://upload.wikimedia.org/wikipedia/commons/4/41/Yamaha_Motorcycle_2022.jpg,https://commons.wikimedia.org/wiki/File:Yamaha.jpg,1600,1200,JPEG,432100,success

@@ -1,0 +1,50 @@
+# ==============================================================================
+# Google Images Scraper - Configuration File
+# ==============================================================================
+
+# Search Engine & Keywords
+keywords:
+  - "sports car"
+  - "truk logistik"
+  - "sepeda motor"
+
+# Scraper Engine Selection
+# Options:
+#  - "google_browser": Otomasi browser Playwright ke Google Images (local interactive/headless)
+#  - "google_api": Google Custom Search JSON API resmi (sangat stabil & production-ready)
+#  - "commons": Open Wikimedia Commons Search (fallback untuk testing lokal tanpa kredensial)
+engine: "google_browser"
+
+# Download Limits & Output Paths
+max_images_per_keyword: 20
+output_dir: "google_images_dataset"
+
+# Validation & Quality Filters
+min_width: 200
+min_height: 200
+allowed_formats:
+  - "JPEG"
+  - "JPG"
+  - "PNG"
+  - "WEBP"
+  - "AVIF"
+
+# Network, Concurrency & Retry Settings
+timeout: 15
+max_retries: 3
+retry_delay: 2.0
+max_workers: 5
+delay_between_requests: 1.5
+
+# Browser Automation Specific Settings (Playwright)
+headless: true
+browser_type: "firefox"  # "firefox" or "chromium"
+viewport_width: 1920
+viewport_height: 1080
+scroll_delay: 1.5
+max_scroll_attempts: 10
+extract_original_timeout: 8.0
+
+# Official Google Custom Search API Settings (Optional if using engine: "google_api")
+google_api_key: ""
+google_cx: ""

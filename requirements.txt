@@ -1,0 +1,11 @@
+# Core HTTP and Image Processing
+requests>=2.31.0
+pillow>=10.2.0
+pyyaml>=6.0.1
+
+# Browser Automation & Anti-bot Mitigation
+playwright>=1.40.0
+playwright-stealth>=2.0.0
+
+# Testing & Quality Assurance
+pytest>=8.0.0

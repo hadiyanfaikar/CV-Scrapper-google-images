@@ -1,0 +1,540 @@
+[2026-10-09 16:49:23] [INFO] [scraper.py:38] ============================================================
+[2026-10-09 16:49:23] [INFO] [scraper.py:39] Google Images Scraper v1.0.0 Started
+[2026-10-09 16:49:23] [INFO] [scraper.py:40] Target Keywords     : ['sports car', 'truck']
+[2026-10-09 16:49:23] [INFO] [scraper.py:41] Max Images / Keyword: 5
+[2026-10-09 16:49:23] [INFO] [scraper.py:42] Search Engine       : commons
+[2026-10-09 16:49:23] [INFO] [scraper.py:43] Output Directory    : /home/hadiyanfaikar/Documents/Scrapping-CV-google/google_images_dataset
+[2026-10-09 16:49:23] [INFO] [scraper.py:44] Min Dimensions      : 200x200
+[2026-10-09 16:49:23] [INFO] [scraper.py:45] Allowed Formats     : ['JPEG', 'JPG', 'PNG', 'WEBP']
+[2026-10-09 16:49:23] [INFO] [scraper.py:46] Concurrency Workers : 5
+[2026-10-09 16:49:23] [INFO] [scraper.py:47] ============================================================
+[2026-10-09 16:49:23] [INFO] [scraper.py:76] 
+Processing keyword [1/2]: 'sports car'
+[2026-10-09 16:49:23] [INFO] [open_commons.py:27] Querying Wikimedia Commons for keyword: 'sports car' (target: 10)
+[2026-10-09 16:49:24] [INFO] [open_commons.py:81] Wikimedia Commons returned 10 candidates for 'sports car'.
+[2026-10-09 16:49:24] [INFO] [image_downloader.py:89] Starting download for keyword 'sports car' (Found 10 candidates, target: 5)
+[2026-10-09 16:49:24] [INFO] [image_downloader.py:112] [sports car] [1/5] Downloaded: sports_car_0004_239cf752.jpg (1280x853, JPEG, 175124 bytes)
+[2026-10-09 16:49:24] [INFO] [image_downloader.py:112] [sports car] [2/5] Downloaded: sports_car_0003_990e7cf5.jpg (1280x851, JPEG, 198671 bytes)
+[2026-10-09 16:49:24] [INFO] [image_downloader.py:112] [sports car] [3/5] Downloaded: sports_car_0002_feb4847e.jpg (1280x851, JPEG, 300509 bytes)
+[2026-10-09 16:49:24] [INFO] [image_downloader.py:112] [sports car] [4/5] Downloaded: sports_car_0005_988bf682.jpg (1280x853, JPEG, 217631 bytes)
+[2026-10-09 16:49:24] [INFO] [image_downloader.py:112] [sports car] [5/5] Downloaded: sports_car_0001_3c696345.jpg (1280x853, JPEG, 427919 bytes)
+[2026-10-09 16:49:24] [INFO] [image_downloader.py:118] Reached target image count (5) for keyword 'sports car'. Cancelling remaining downloads.
+[2026-10-09 16:49:25] [INFO] [image_downloader.py:129] Completed keyword 'sports car': 5/5 successfully downloaded.
+[2026-10-09 16:49:27] [INFO] [scraper.py:76] 
+Processing keyword [2/2]: 'truck'
+[2026-10-09 16:49:27] [INFO] [open_commons.py:27] Querying Wikimedia Commons for keyword: 'truck' (target: 10)
+[2026-10-09 16:49:28] [INFO] [open_commons.py:81] Wikimedia Commons returned 10 candidates for 'truck'.
+[2026-10-09 16:49:28] [INFO] [image_downloader.py:89] Starting download for keyword 'truck' (Found 10 candidates, target: 5)
+[2026-10-09 16:49:28] [INFO] [image_downloader.py:112] [truck] [1/5] Downloaded: truck_0004_e9d0e31c.jpg (1280x1348, JPEG, 423680 bytes)
+[2026-10-09 16:49:28] [INFO] [image_downloader.py:112] [truck] [2/5] Downloaded: truck_0006_425d0d73.jpg (1280x900, JPEG, 475630 bytes)
+[2026-10-09 16:49:28] [INFO] [image_downloader.py:112] [truck] [3/5] Downloaded: truck_0007_459c04d3.jpg (1280x800, JPEG, 268111 bytes)
+[2026-10-09 16:49:28] [INFO] [image_downloader.py:112] [truck] [4/5] Downloaded: truck_0002_40f7ca63.jpg (1280x853, JPEG, 294831 bytes)
+[2026-10-09 16:49:28] [INFO] [image_downloader.py:112] [truck] [5/5] Downloaded: truck_0008_4f3b83bc.jpg (1280x547, JPEG, 115594 bytes)
+[2026-10-09 16:49:28] [INFO] [image_downloader.py:118] Reached target image count (5) for keyword 'truck'. Cancelling remaining downloads.
+[2026-10-09 16:49:32] [INFO] [image_downloader.py:129] Completed keyword 'truck': 5/5 successfully downloaded.
+[2026-10-09 16:49:32] [INFO] [scraper.py:112] 
+============================================================
+[2026-10-09 16:49:32] [INFO] [scraper.py:113] SCRAPING TASK SUMMARY
+[2026-10-09 16:49:32] [INFO] [scraper.py:114] Total Elapsed Time    : 8.71 seconds
+[2026-10-09 16:49:32] [INFO] [scraper.py:115] Successfully Downloaded: 10 images
+[2026-10-09 16:49:32] [INFO] [scraper.py:116] Duplicates Skipped    : 0 images
+[2026-10-09 16:49:32] [INFO] [scraper.py:117] Rejected / Failed     : 0 images
+[2026-10-09 16:49:32] [INFO] [scraper.py:118] Dataset Output Path   : /home/hadiyanfaikar/Documents/Scrapping-CV-google/google_images_dataset
+[2026-10-09 16:49:32] [INFO] [scraper.py:119] Metadata CSV File     : /home/hadiyanfaikar/Documents/Scrapping-CV-google/google_images_dataset/metadata/images.csv
+[2026-10-09 16:49:32] [INFO] [scraper.py:120] ============================================================
+[2026-10-09 16:49:38] [INFO] [scraper.py:38] ============================================================
+[2026-10-09 16:49:38] [INFO] [scraper.py:39] Google Images Scraper v1.0.0 Started
+[2026-10-09 16:49:38] [INFO] [scraper.py:40] Target Keywords     : ['car', 'truck', 'motorcycle']
+[2026-10-09 16:49:38] [INFO] [scraper.py:41] Max Images / Keyword: 20
+[2026-10-09 16:49:38] [INFO] [scraper.py:42] Search Engine       : google_browser
+[2026-10-09 16:49:38] [INFO] [scraper.py:43] Output Directory    : /home/hadiyanfaikar/Documents/Scrapping-CV-google/google_images_dataset
+[2026-10-09 16:49:38] [INFO] [scraper.py:44] Min Dimensions      : 200x200
+[2026-10-09 16:49:38] [INFO] [scraper.py:45] Allowed Formats     : ['JPEG', 'JPG', 'PNG', 'WEBP']
+[2026-10-09 16:49:38] [INFO] [scraper.py:46] Concurrency Workers : 5
+[2026-10-09 16:49:38] [INFO] [scraper.py:47] ============================================================
+[2026-10-09 16:49:38] [INFO] [scraper.py:76] 
+Processing keyword [1/3]: 'car'
+[2026-10-09 16:49:38] [INFO] [browser_searcher.py:35] Launching Playwright (firefox, headless=True) for keyword: 'car'
+[2026-10-09 16:49:39] [INFO] [browser_searcher.py:89] Navigating to: https://www.google.com/search?q=car&udm=2
+[2026-10-09 16:49:41] [INFO] [browser_searcher.py:115] Extracting high-resolution images via preview pane inspection...
+[2026-10-09 16:49:56] [INFO] [browser_searcher.py:121] Collected 0/40 images via preview panel. Extracting additional candidates from structured page data...
+[2026-10-09 16:49:56] [WARNING] [browser_searcher.py:130] Could not reach 40 original URLs (got 0). Checking thumbnail fallbacks...
+[2026-10-09 16:49:56] [INFO] [browser_searcher.py:137] Extraction completed for keyword 'car'. Found 0 candidate URLs.
+[2026-10-09 16:49:56] [WARNING] [scraper.py:84] No candidate images found for 'car'.
+[2026-10-09 16:49:56] [INFO] [scraper.py:76] 
+Processing keyword [2/3]: 'truck'
+[2026-10-09 16:49:56] [INFO] [browser_searcher.py:35] Launching Playwright (firefox, headless=True) for keyword: 'truck'
+[2026-10-09 16:49:57] [INFO] [browser_searcher.py:89] Navigating to: https://www.google.com/search?q=truck&udm=2
+[2026-10-09 16:49:59] [INFO] [browser_searcher.py:115] Extracting high-resolution images via preview pane inspection...
+[2026-10-09 16:50:14] [INFO] [browser_searcher.py:121] Collected 0/40 images via preview panel. Extracting additional candidates from structured page data...
+[2026-10-09 16:50:14] [WARNING] [browser_searcher.py:130] Could not reach 40 original URLs (got 0). Checking thumbnail fallbacks...
+[2026-10-09 16:50:14] [INFO] [browser_searcher.py:137] Extraction completed for keyword 'truck'. Found 0 candidate URLs.
+[2026-10-09 16:50:14] [WARNING] [scraper.py:84] No candidate images found for 'truck'.
+[2026-10-09 16:50:14] [INFO] [scraper.py:76] 
+Processing keyword [3/3]: 'motorcycle'
+[2026-10-09 16:50:14] [INFO] [browser_searcher.py:35] Launching Playwright (firefox, headless=True) for keyword: 'motorcycle'
+[2026-10-09 16:50:15] [INFO] [browser_searcher.py:89] Navigating to: https://www.google.com/search?q=motorcycle&udm=2
+[2026-10-09 16:50:18] [INFO] [browser_searcher.py:115] Extracting high-resolution images via preview pane inspection...
+[2026-10-09 16:50:33] [INFO] [browser_searcher.py:121] Collected 0/40 images via preview panel. Extracting additional candidates from structured page data...
+[2026-10-09 16:50:33] [WARNING] [browser_searcher.py:130] Could not reach 40 original URLs (got 0). Checking thumbnail fallbacks...
+[2026-10-09 16:50:33] [INFO] [browser_searcher.py:137] Extraction completed for keyword 'motorcycle'. Found 0 candidate URLs.
+[2026-10-09 16:50:33] [WARNING] [scraper.py:84] No candidate images found for 'motorcycle'.
+[2026-10-09 16:50:33] [INFO] [scraper.py:112] 
+============================================================
+[2026-10-09 16:50:33] [INFO] [scraper.py:113] SCRAPING TASK SUMMARY
+[2026-10-09 16:50:33] [INFO] [scraper.py:114] Total Elapsed Time    : 54.60 seconds
+[2026-10-09 16:50:33] [INFO] [scraper.py:115] Successfully Downloaded: 0 images
+[2026-10-09 16:50:33] [INFO] [scraper.py:116] Duplicates Skipped    : 0 images
+[2026-10-09 16:50:33] [INFO] [scraper.py:117] Rejected / Failed     : 0 images
+[2026-10-09 16:50:33] [INFO] [scraper.py:118] Dataset Output Path   : /home/hadiyanfaikar/Documents/Scrapping-CV-google/google_images_dataset
+[2026-10-09 16:50:33] [INFO] [scraper.py:119] Metadata CSV File     : /home/hadiyanfaikar/Documents/Scrapping-CV-google/google_images_dataset/metadata/images.csv
+[2026-10-09 16:50:33] [INFO] [scraper.py:120] ============================================================
+[2026-10-09 16:53:57] [INFO] [scraper.py:38] ============================================================
+[2026-10-09 16:53:57] [INFO] [scraper.py:39] Google Images Scraper v1.0.0 Started
+[2026-10-09 16:53:57] [INFO] [scraper.py:40] Target Keywords     : ['CV Backend Developer']
+[2026-10-09 16:53:57] [INFO] [scraper.py:41] Max Images / Keyword: 10
+[2026-10-09 16:53:57] [INFO] [scraper.py:42] Search Engine       : bing
+[2026-10-09 16:53:57] [INFO] [scraper.py:43] Output Directory    : /home/hadiyanfaikar/Documents/Scrapping-CV-google/google_images_dataset
+[2026-10-09 16:53:57] [INFO] [scraper.py:44] Min Dimensions      : 200x200
+[2026-10-09 16:53:57] [INFO] [scraper.py:45] Allowed Formats     : ['JPEG', 'JPG', 'PNG', 'WEBP']
+[2026-10-09 16:53:57] [INFO] [scraper.py:46] Concurrency Workers : 5
+[2026-10-09 16:53:57] [INFO] [scraper.py:47] ============================================================
+[2026-10-09 16:53:57] [INFO] [scraper.py:76] 
+Processing keyword [1/1]: 'CV Backend Developer'
+[2026-10-09 16:53:57] [INFO] [bing_searcher.py:26] Querying Bing Images for keyword: 'CV Backend Developer' (target: 20)
+[2026-10-09 16:53:58] [INFO] [bing_searcher.py:90] Bing Images found 20 candidates for 'CV Backend Developer'.
+[2026-10-09 16:53:58] [INFO] [image_downloader.py:89] Starting download for keyword 'CV Backend Developer' (Found 20 candidates, target: 10)
+[2026-10-09 16:53:58] [INFO] [image_downloader.py:112] [CV Backend Developer] [1/10] Downloaded: cv_backend_developer_0001_eb6123f8.jpg (850x1202, JPEG, 164422 bytes)
+[2026-10-09 16:53:58] [INFO] [image_downloader.py:112] [CV Backend Developer] [2/10] Downloaded: cv_backend_developer_0006_ed016900.webp (1131x1600, WEBP, 111538 bytes)
+[2026-10-09 16:53:59] [INFO] [image_downloader.py:112] [CV Backend Developer] [3/10] Downloaded: cv_backend_developer_0008_168e6070.jpg (1374x1018, JPEG, 81573 bytes)
+[2026-10-09 16:53:59] [INFO] [image_downloader.py:112] [CV Backend Developer] [4/10] Downloaded: cv_backend_developer_0010_da82224d.jpg (1654x2339, JPEG, 174561 bytes)
+[2026-10-09 16:53:59] [INFO] [image_downloader.py:112] [CV Backend Developer] [5/10] Downloaded: cv_backend_developer_0005_907cbec2.webp (1086x1536, WEBP, 84256 bytes)
+[2026-10-09 16:54:00] [INFO] [image_downloader.py:112] [CV Backend Developer] [6/10] Downloaded: cv_backend_developer_0002_a76cd5cd.png (2382x3369, PNG, 355148 bytes)
+[2026-10-09 16:54:00] [INFO] [image_downloader.py:112] [CV Backend Developer] [7/10] Downloaded: cv_backend_developer_0014_33f5111c.jpg (2551x3579, JPEG, 805434 bytes)
+[2026-10-09 16:54:00] [INFO] [image_downloader.py:112] [CV Backend Developer] [8/10] Downloaded: cv_backend_developer_0015_29c47bc1.webp (1131x1600, WEBP, 147592 bytes)
+[2026-10-09 16:54:00] [INFO] [image_downloader.py:112] [CV Backend Developer] [9/10] Downloaded: cv_backend_developer_0016_fdf94010.webp (1240x1754, WEBP, 176708 bytes)
+[2026-10-09 16:54:02] [INFO] [image_downloader.py:112] [CV Backend Developer] [10/10] Downloaded: cv_backend_developer_0011_e83ae562.png (2382x3369, PNG, 347908 bytes)
+[2026-10-09 16:54:02] [INFO] [image_downloader.py:118] Reached target image count (10) for keyword 'CV Backend Developer'. Cancelling remaining downloads.
+[2026-10-09 16:56:10] [INFO] [image_downloader.py:129] Completed keyword 'CV Backend Developer': 10/10 successfully downloaded.
+[2026-10-09 16:56:10] [INFO] [scraper.py:112] 
+============================================================
+[2026-10-09 16:56:10] [INFO] [scraper.py:113] SCRAPING TASK SUMMARY
+[2026-10-09 16:56:10] [INFO] [scraper.py:114] Total Elapsed Time    : 132.63 seconds
+[2026-10-09 16:56:10] [INFO] [scraper.py:115] Successfully Downloaded: 10 images
+[2026-10-09 16:56:10] [INFO] [scraper.py:116] Duplicates Skipped    : 0 images
+[2026-10-09 16:56:10] [INFO] [scraper.py:117] Rejected / Failed     : 3 images
+[2026-10-09 16:56:10] [INFO] [scraper.py:118] Dataset Output Path   : /home/hadiyanfaikar/Documents/Scrapping-CV-google/google_images_dataset
+[2026-10-09 16:56:10] [INFO] [scraper.py:119] Metadata CSV File     : /home/hadiyanfaikar/Documents/Scrapping-CV-google/google_images_dataset/metadata/images.csv
+[2026-10-09 16:56:10] [INFO] [scraper.py:120] ============================================================
+[2026-10-09 17:00:02] [INFO] [scraper.py:38] ============================================================
+[2026-10-09 17:00:02] [INFO] [scraper.py:39] Google Images Scraper v1.0.0 Started
+[2026-10-09 17:00:02] [INFO] [scraper.py:40] Target Keywords     : ['CV Backend Developer']
+[2026-10-09 17:00:02] [INFO] [scraper.py:41] Max Images / Keyword: 100
+[2026-10-09 17:00:02] [INFO] [scraper.py:42] Search Engine       : google_api
+[2026-10-09 17:00:02] [INFO] [scraper.py:43] Output Directory    : /home/hadiyanfaikar/Documents/Scrapping-CV-google/google_images_dataset
+[2026-10-09 17:00:02] [INFO] [scraper.py:44] Min Dimensions      : 200x200
+[2026-10-09 17:00:02] [INFO] [scraper.py:45] Allowed Formats     : ['JPEG', 'JPG', 'PNG', 'WEBP']
+[2026-10-09 17:00:02] [INFO] [scraper.py:46] Concurrency Workers : 5
+[2026-10-09 17:00:02] [INFO] [scraper.py:47] ============================================================
+[2026-10-09 17:00:02] [INFO] [scraper.py:76] 
+Processing keyword [1/1]: 'CV Backend Developer'
+[2026-10-09 17:00:02] [INFO] [google_api.py:34] Querying Google Custom Search API for keyword: 'CV Backend Developer' (target: 200)
+[2026-10-09 17:00:03] [ERROR] [scraper.py:101] Error processing keyword 'CV Backend Developer': Google API Error HTTP 404: <html lang="en" dir=ltr><meta charset=utf-8><meta name=viewport content="initial-scale=1, minimum-scale=1, width=device-width"><title>Error 404 (Not Found)!!1</title><style nonce="M3gp9cSYGDWEvDmiwWvgxQ">*{margin:0;padding:0}html,code{font:15px/22px arial,sans-serif}html{background:#fff;color:#222;padding:15px}body{color:#222;text-align:unset;margin:7% auto 0;max-width:390px;min-height:180px;padding:30px 0 15px;}* > body{background:url(//www.google.com/images/errors/robot.png) 100% 5px no-repeat;padding-right:205px}p{margin:11px 0 22px;overflow:hidden}pre{white-space:pre-wrap;}ins{color:#777;text-decoration:none}a img{border:0}@media screen and (max-width:772px){body{background:none;margin-top:0;max-width:none;padding-right:0}}#logo{background:url(//www.google.com/images/branding/googlelogo/1x/googlelogo_color_150x54dp.png) no-repeat;margin-left:-5px}@media only screen and (min-resolution:192dpi){#logo{background:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) no-repeat 0% 0%/100% 100%;-moz-border-image:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) 0}}@media only screen and (-webkit-min-device-pixel-ratio:2){#logo{background:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) no-repeat;-webkit-background-size:100% 100%}}#logo{display:inline-block;height:54px;width:150px}</style><main id="af-error-container" role="main"><a href=//www.google.com><span id=logo aria-label=Google role=img></span></a><p><b>404.</b> <ins>That’s an error.</ins><p>The requested URL was not found on this server. <ins>That’s all we know.</ins></main>
+Traceback (most recent call last):
+  File "/home/hadiyanfaikar/Documents/Scrapping-CV-google/scraper.py", line 81, in main
+    candidates = searcher.search(keyword=keyword, max_results=fetch_target)
+  File "/home/hadiyanfaikar/Documents/Scrapping-CV-google/src/search/google_api.py", line 63, in search
+    raise SearchProviderException(f"Google API Error HTTP {resp.status_code}: {err_msg}")
+src.search.base.SearchProviderException: Google API Error HTTP 404: <html lang="en" dir=ltr><meta charset=utf-8><meta name=viewport content="initial-scale=1, minimum-scale=1, width=device-width"><title>Error 404 (Not Found)!!1</title><style nonce="M3gp9cSYGDWEvDmiwWvgxQ">*{margin:0;padding:0}html,code{font:15px/22px arial,sans-serif}html{background:#fff;color:#222;padding:15px}body{color:#222;text-align:unset;margin:7% auto 0;max-width:390px;min-height:180px;padding:30px 0 15px;}* > body{background:url(//www.google.com/images/errors/robot.png) 100% 5px no-repeat;padding-right:205px}p{margin:11px 0 22px;overflow:hidden}pre{white-space:pre-wrap;}ins{color:#777;text-decoration:none}a img{border:0}@media screen and (max-width:772px){body{background:none;margin-top:0;max-width:none;padding-right:0}}#logo{background:url(//www.google.com/images/branding/googlelogo/1x/googlelogo_color_150x54dp.png) no-repeat;margin-left:-5px}@media only screen and (min-resolution:192dpi){#logo{background:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) no-repeat 0% 0%/100% 100%;-moz-border-image:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) 0}}@media only screen and (-webkit-min-device-pixel-ratio:2){#logo{background:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) no-repeat;-webkit-background-size:100% 100%}}#logo{display:inline-block;height:54px;width:150px}</style><main id="af-error-container" role="main"><a href=//www.google.com><span id=logo aria-label=Google role=img></span></a><p><b>404.</b> <ins>That’s an error.</ins><p>The requested URL was not found on this server. <ins>That’s all we know.</ins></main>
+[2026-10-09 17:00:03] [INFO] [scraper.py:112] 
+============================================================
+[2026-10-09 17:00:03] [INFO] [scraper.py:113] SCRAPING TASK SUMMARY
+[2026-10-09 17:00:03] [INFO] [scraper.py:114] Total Elapsed Time    : 0.12 seconds
+[2026-10-09 17:00:03] [INFO] [scraper.py:115] Successfully Downloaded: 0 images
+[2026-10-09 17:00:03] [INFO] [scraper.py:116] Duplicates Skipped    : 0 images
+[2026-10-09 17:00:03] [INFO] [scraper.py:117] Rejected / Failed     : 0 images
+[2026-10-09 17:00:03] [INFO] [scraper.py:118] Dataset Output Path   : /home/hadiyanfaikar/Documents/Scrapping-CV-google/google_images_dataset
+[2026-10-09 17:00:03] [INFO] [scraper.py:119] Metadata CSV File     : /home/hadiyanfaikar/Documents/Scrapping-CV-google/google_images_dataset/metadata/images.csv
+[2026-10-09 17:00:03] [INFO] [scraper.py:120] ============================================================
+[2026-10-09 17:02:04] [INFO] [scraper.py:38] ============================================================
+[2026-10-09 17:02:04] [INFO] [scraper.py:39] Google Images Scraper v1.0.0 Started
+[2026-10-09 17:02:04] [INFO] [scraper.py:40] Target Keywords     : ['CV Backend Developer']
+[2026-10-09 17:02:04] [INFO] [scraper.py:41] Max Images / Keyword: 100
+[2026-10-09 17:02:04] [INFO] [scraper.py:42] Search Engine       : bing
+[2026-10-09 17:02:04] [INFO] [scraper.py:43] Output Directory    : /home/hadiyanfaikar/Documents/Scrapping-CV-google/google_images_dataset
+[2026-10-09 17:02:04] [INFO] [scraper.py:44] Min Dimensions      : 200x200
+[2026-10-09 17:02:04] [INFO] [scraper.py:45] Allowed Formats     : ['JPEG', 'JPG', 'PNG', 'WEBP']
+[2026-10-09 17:02:04] [INFO] [scraper.py:46] Concurrency Workers : 5
+[2026-10-09 17:02:04] [INFO] [scraper.py:47] ============================================================
+[2026-10-09 17:02:04] [INFO] [scraper.py:76] 
+Processing keyword [1/1]: 'CV Backend Developer'
+[2026-10-09 17:02:04] [INFO] [bing_searcher.py:26] Querying Bing Images for keyword: 'CV Backend Developer' (target: 200)
+[2026-10-09 17:02:05] [INFO] [bing_searcher.py:90] Bing Images found 35 candidates for 'CV Backend Developer'.
+[2026-10-09 17:02:05] [INFO] [image_downloader.py:89] Starting download for keyword 'CV Backend Developer' (Found 35 candidates, target: 100)
+[2026-10-09 17:02:05] [INFO] [image_downloader.py:112] [CV Backend Developer] [1/100] Downloaded: cv_backend_developer_0001_eb6123f8.jpg (850x1202, JPEG, 164422 bytes)
+[2026-10-09 17:02:05] [INFO] [image_downloader.py:112] [CV Backend Developer] [2/100] Downloaded: cv_backend_developer_0006_ed016900.webp (1131x1600, WEBP, 111538 bytes)
+[2026-10-09 17:02:05] [INFO] [image_downloader.py:112] [CV Backend Developer] [3/100] Downloaded: cv_backend_developer_0008_168e6070.jpg (1374x1018, JPEG, 81573 bytes)
+[2026-10-09 17:02:05] [INFO] [image_downloader.py:112] [CV Backend Developer] [4/100] Downloaded: cv_backend_developer_0010_da82224d.jpg (1654x2339, JPEG, 174561 bytes)
+[2026-10-09 17:02:06] [INFO] [image_downloader.py:112] [CV Backend Developer] [5/100] Downloaded: cv_backend_developer_0005_907cbec2.webp (1086x1536, WEBP, 84256 bytes)
+[2026-10-09 17:02:06] [INFO] [image_downloader.py:112] [CV Backend Developer] [6/100] Downloaded: cv_backend_developer_0002_a76cd5cd.png (2382x3369, PNG, 355148 bytes)
+[2026-10-09 17:02:06] [INFO] [image_downloader.py:112] [CV Backend Developer] [7/100] Downloaded: cv_backend_developer_0014_33f5111c.jpg (2551x3579, JPEG, 805434 bytes)
+[2026-10-09 17:02:06] [INFO] [image_downloader.py:112] [CV Backend Developer] [8/100] Downloaded: cv_backend_developer_0015_29c47bc1.webp (1131x1600, WEBP, 147592 bytes)
+[2026-10-09 17:02:06] [INFO] [image_downloader.py:112] [CV Backend Developer] [9/100] Downloaded: cv_backend_developer_0016_fdf94010.webp (1240x1754, WEBP, 176708 bytes)
+[2026-10-09 17:02:07] [INFO] [image_downloader.py:112] [CV Backend Developer] [10/100] Downloaded: cv_backend_developer_0012_22912925.jpg (1086x1536, JPEG, 132524 bytes)
+[2026-10-09 17:02:07] [INFO] [image_downloader.py:112] [CV Backend Developer] [11/100] Downloaded: cv_backend_developer_0011_e83ae562.png (2382x3369, PNG, 347908 bytes)
+[2026-10-09 17:02:07] [INFO] [image_downloader.py:112] [CV Backend Developer] [12/100] Downloaded: cv_backend_developer_0013_368fe678.webp (1000x1414, WEBP, 151112 bytes)
+[2026-10-09 17:02:07] [INFO] [image_downloader.py:112] [CV Backend Developer] [13/100] Downloaded: cv_backend_developer_0019_f39d3357.jpg (1200x1600, JPEG, 128556 bytes)
+[2026-10-09 17:02:08] [INFO] [image_downloader.py:112] [CV Backend Developer] [14/100] Downloaded: cv_backend_developer_0017_8a5e6f82.jpg (1086x1536, JPEG, 110902 bytes)
+[2026-10-09 17:02:08] [INFO] [image_downloader.py:112] [CV Backend Developer] [15/100] Downloaded: cv_backend_developer_0018_56b21c08.jpg (849x1201, JPEG, 91140 bytes)
+[2026-10-09 17:02:08] [INFO] [image_downloader.py:112] [CV Backend Developer] [16/100] Downloaded: cv_backend_developer_0021_6027d17e.jpg (1536x1101, JPEG, 74488 bytes)
+[2026-10-09 17:02:08] [INFO] [image_downloader.py:112] [CV Backend Developer] [17/100] Downloaded: cv_backend_developer_0023_df3ceeba.webp (1131x1600, WEBP, 134438 bytes)
+[2026-10-09 17:02:08] [INFO] [image_downloader.py:112] [CV Backend Developer] [18/100] Downloaded: cv_backend_developer_0025_c98d57a2.webp (1131x1600, WEBP, 127534 bytes)
+[2026-10-09 17:02:08] [INFO] [image_downloader.py:112] [CV Backend Developer] [19/100] Downloaded: cv_backend_developer_0022_58ede3d6.jpg (1240x1754, JPEG, 140580 bytes)
+[2026-10-09 17:02:08] [INFO] [image_downloader.py:112] [CV Backend Developer] [20/100] Downloaded: cv_backend_developer_0027_fba49b1f.webp (1131x1600, WEBP, 106892 bytes)
+[2026-10-09 17:02:08] [INFO] [image_downloader.py:112] [CV Backend Developer] [21/100] Downloaded: cv_backend_developer_0024_45874a67.webp (1664x1637, WEBP, 42572 bytes)
+[2026-10-09 17:02:09] [INFO] [image_downloader.py:112] [CV Backend Developer] [22/100] Downloaded: cv_backend_developer_0029_1a9219b1.jpg (1086x1536, JPEG, 100709 bytes)
+[2026-10-09 17:02:09] [INFO] [image_downloader.py:112] [CV Backend Developer] [23/100] Downloaded: cv_backend_developer_0030_a4f0e851.webp (1131x1600, WEBP, 104116 bytes)
+[2026-10-09 17:02:09] [INFO] [image_downloader.py:112] [CV Backend Developer] [24/100] Downloaded: cv_backend_developer_0032_656d9345.webp (1131x1600, WEBP, 137320 bytes)
+[2026-10-09 17:02:10] [INFO] [image_downloader.py:112] [CV Backend Developer] [25/100] Downloaded: cv_backend_developer_0026_12870de7.jpg (1200x1683, JPEG, 270756 bytes)
+[2026-10-09 17:02:10] [INFO] [image_downloader.py:112] [CV Backend Developer] [26/100] Downloaded: cv_backend_developer_0020_a387848f.webp (1240x1754, WEBP, 174002 bytes)
+[2026-10-09 17:02:10] [INFO] [image_downloader.py:112] [CV Backend Developer] [27/100] Downloaded: cv_backend_developer_0035_c932f940.webp (1131x1600, WEBP, 132880 bytes)
+[2026-10-09 17:02:10] [INFO] [image_downloader.py:112] [CV Backend Developer] [28/100] Downloaded: cv_backend_developer_0033_2c9f51db.png (989x1400, PNG, 129495 bytes)
+[2026-10-09 17:02:10] [INFO] [image_downloader.py:112] [CV Backend Developer] [29/100] Downloaded: cv_backend_developer_0034_a7701eae.jpg (849x1201, JPEG, 98256 bytes)
+[2026-10-09 17:02:10] [INFO] [image_downloader.py:112] [CV Backend Developer] [30/100] Downloaded: cv_backend_developer_0028_8191a17f.webp (1240x1754, WEBP, 116472 bytes)
+[2026-10-09 17:04:17] [INFO] [image_downloader.py:129] Completed keyword 'CV Backend Developer': 30/100 successfully downloaded.
+[2026-10-09 17:04:17] [INFO] [scraper.py:112] 
+============================================================
+[2026-10-09 17:04:17] [INFO] [scraper.py:113] SCRAPING TASK SUMMARY
+[2026-10-09 17:04:17] [INFO] [scraper.py:114] Total Elapsed Time    : 132.66 seconds
+[2026-10-09 17:04:17] [INFO] [scraper.py:115] Successfully Downloaded: 30 images
+[2026-10-09 17:04:17] [INFO] [scraper.py:116] Duplicates Skipped    : 0 images
+[2026-10-09 17:04:17] [INFO] [scraper.py:117] Rejected / Failed     : 5 images
+[2026-10-09 17:04:17] [INFO] [scraper.py:118] Dataset Output Path   : /home/hadiyanfaikar/Documents/Scrapping-CV-google/google_images_dataset
+[2026-10-09 17:04:17] [INFO] [scraper.py:119] Metadata CSV File     : /home/hadiyanfaikar/Documents/Scrapping-CV-google/google_images_dataset/metadata/images.csv
+[2026-10-09 17:04:17] [INFO] [scraper.py:120] ============================================================
+[2026-10-09 17:09:24] [INFO] [scraper.py:38] ============================================================
+[2026-10-09 17:09:24] [INFO] [scraper.py:39] Google Images Scraper v1.0.0 Started
+[2026-10-09 17:09:24] [INFO] [scraper.py:40] Target Keywords     : ['CV Backend Developer']
+[2026-10-09 17:09:24] [INFO] [scraper.py:41] Max Images / Keyword: 100
+[2026-10-09 17:09:24] [INFO] [scraper.py:42] Search Engine       : bing
+[2026-10-09 17:09:24] [INFO] [scraper.py:43] Output Directory    : /home/hadiyanfaikar/Documents/Scrapping-CV-google/google_images_dataset
+[2026-10-09 17:09:24] [INFO] [scraper.py:44] Min Dimensions      : 200x200
+[2026-10-09 17:09:24] [INFO] [scraper.py:45] Allowed Formats     : ['JPEG', 'JPG', 'PNG', 'WEBP', 'AVIF']
+[2026-10-09 17:09:24] [INFO] [scraper.py:46] Concurrency Workers : 5
+[2026-10-09 17:09:24] [INFO] [scraper.py:47] ============================================================
+[2026-10-09 17:09:24] [INFO] [scraper.py:76] 
+Processing keyword [1/1]: 'CV Backend Developer'
+[2026-10-09 17:09:24] [INFO] [bing_searcher.py:26] Querying Bing Images for keyword: 'CV Backend Developer' (target: 200)
+[2026-10-09 17:09:32] [INFO] [bing_searcher.py:85] Bing Images found 397 candidates for 'CV Backend Developer'.
+[2026-10-09 17:09:32] [INFO] [image_downloader.py:89] Starting download for keyword 'CV Backend Developer' (Found 397 candidates, target: 100)
+[2026-10-09 17:09:32] [INFO] [image_downloader.py:112] [CV Backend Developer] [1/100] Downloaded: cv_backend_developer_0002_322f92a0.jpg (1407x1990, JPEG, 183065 bytes)
+[2026-10-09 17:09:32] [INFO] [image_downloader.py:112] [CV Backend Developer] [2/100] Downloaded: cv_backend_developer_0003_551e4bc9.avif (800x1036, AVIF, 57262 bytes)
+[2026-10-09 17:09:33] [INFO] [image_downloader.py:112] [CV Backend Developer] [3/100] Downloaded: cv_backend_developer_0004_d72b28e9.png (430x608, PNG, 167162 bytes)
+[2026-10-09 17:09:33] [INFO] [image_downloader.py:112] [CV Backend Developer] [4/100] Downloaded: cv_backend_developer_0006_96a87b8f.webp (776x1024, WEBP, 82692 bytes)
+[2026-10-09 17:09:33] [INFO] [image_downloader.py:112] [CV Backend Developer] [5/100] Downloaded: cv_backend_developer_0005_2f2a5b4c.png (730x1024, PNG, 321674 bytes)
+[2026-10-09 17:09:33] [INFO] [image_downloader.py:112] [CV Backend Developer] [6/100] Downloaded: cv_backend_developer_0009_637b957f.jpg (1407x1990, JPEG, 139678 bytes)
+[2026-10-09 17:09:34] [INFO] [image_downloader.py:112] [CV Backend Developer] [7/100] Downloaded: cv_backend_developer_0001_0b6924d9.jpg (1100x1557, JPEG, 289164 bytes)
+[2026-10-09 17:09:34] [INFO] [image_downloader.py:112] [CV Backend Developer] [8/100] Downloaded: cv_backend_developer_0011_1e03345f.jpg (1500x2786, JPEG, 851750 bytes)
+[2026-10-09 17:09:34] [INFO] [image_downloader.py:112] [CV Backend Developer] [9/100] Downloaded: cv_backend_developer_0012_defc0b93.webp (1240x1755, WEBP, 153910 bytes)
+[2026-10-09 17:09:34] [INFO] [image_downloader.py:112] [CV Backend Developer] [10/100] Downloaded: cv_backend_developer_0014_f1554a21.png (1632x2098, PNG, 117627 bytes)
+[2026-10-09 17:09:34] [INFO] [image_downloader.py:112] [CV Backend Developer] [11/100] Downloaded: cv_backend_developer_0008_6f0df582.png (2479x3506, PNG, 758676 bytes)
+[2026-10-09 17:09:34] [INFO] [image_downloader.py:112] [CV Backend Developer] [12/100] Downloaded: cv_backend_developer_0013_8eb01270.png (712x585, PNG, 129829 bytes)
+[2026-10-09 17:09:34] [INFO] [image_downloader.py:112] [CV Backend Developer] [13/100] Downloaded: cv_backend_developer_0015_9f6b392b.png (799x1030, PNG, 47914 bytes)
+[2026-10-09 17:09:35] [INFO] [image_downloader.py:112] [CV Backend Developer] [14/100] Downloaded: cv_backend_developer_0010_59dd9290.png (1468x2076, PNG, 281362 bytes)
+[2026-10-09 17:09:35] [INFO] [image_downloader.py:112] [CV Backend Developer] [15/100] Downloaded: cv_backend_developer_0016_c395d791.png (2483x3508, PNG, 230218 bytes)
+[2026-10-09 17:09:35] [INFO] [image_downloader.py:112] [CV Backend Developer] [16/100] Downloaded: cv_backend_developer_0019_15246f9e.jpg (1240x1755, JPEG, 588220 bytes)
+[2026-10-09 17:09:36] [INFO] [image_downloader.py:112] [CV Backend Developer] [17/100] Downloaded: cv_backend_developer_0017_41544091.png (800x1032, PNG, 125858 bytes)
+[2026-10-09 17:09:36] [INFO] [image_downloader.py:112] [CV Backend Developer] [18/100] Downloaded: cv_backend_developer_0018_22545430.jpg (900x1274, JPEG, 178189 bytes)
+[2026-10-09 17:09:36] [INFO] [image_downloader.py:112] [CV Backend Developer] [19/100] Downloaded: cv_backend_developer_0007_426fe953.png (1200x630, PNG, 110591 bytes)
+[2026-10-09 17:09:36] [INFO] [image_downloader.py:112] [CV Backend Developer] [20/100] Downloaded: cv_backend_developer_0020_b04c5a83.png (1410x1995, PNG, 186695 bytes)
+[2026-10-09 17:09:37] [INFO] [image_downloader.py:112] [CV Backend Developer] [21/100] Downloaded: cv_backend_developer_0024_c21334f5.png (2550x3300, PNG, 183065 bytes)
+[2026-10-09 17:09:37] [INFO] [image_downloader.py:112] [CV Backend Developer] [22/100] Downloaded: cv_backend_developer_0025_8ccfe6b0.png (500x350, PNG, 40140 bytes)
+[2026-10-09 17:09:37] [INFO] [image_downloader.py:112] [CV Backend Developer] [23/100] Downloaded: cv_backend_developer_0021_3267af12.jpg (1407x1990, JPEG, 174840 bytes)
+[2026-10-09 17:09:37] [INFO] [image_downloader.py:112] [CV Backend Developer] [24/100] Downloaded: cv_backend_developer_0022_4a65fbb1.jpg (800x1132, JPEG, 118953 bytes)
+[2026-10-09 17:09:37] [INFO] [image_downloader.py:112] [CV Backend Developer] [25/100] Downloaded: cv_backend_developer_0029_d7220061.png (2550x3300, PNG, 186596 bytes)
+[2026-10-09 17:09:37] [INFO] [image_downloader.py:112] [CV Backend Developer] [26/100] Downloaded: cv_backend_developer_0028_1017fdd3.webp (1072x1427, WEBP, 123188 bytes)
+[2026-10-09 17:09:37] [INFO] [image_downloader.py:112] [CV Backend Developer] [27/100] Downloaded: cv_backend_developer_0023_2287da82.jpg (1407x1990, JPEG, 189874 bytes)
+[2026-10-09 17:09:38] [INFO] [image_downloader.py:112] [CV Backend Developer] [28/100] Downloaded: cv_backend_developer_0032_23a7ecdc.png (1410x1995, PNG, 116586 bytes)
+[2026-10-09 17:09:38] [INFO] [image_downloader.py:112] [CV Backend Developer] [29/100] Downloaded: cv_backend_developer_0027_b316af59.png (1632x2098, PNG, 183018 bytes)
+[2026-10-09 17:09:38] [INFO] [image_downloader.py:112] [CV Backend Developer] [30/100] Downloaded: cv_backend_developer_0030_906d7fe1.jpg (1407x1990, JPEG, 172882 bytes)
+[2026-10-09 17:09:38] [INFO] [image_downloader.py:112] [CV Backend Developer] [31/100] Downloaded: cv_backend_developer_0031_aecdfc6e.jpg (724x1024, JPEG, 123800 bytes)
+[2026-10-09 17:09:39] [INFO] [image_downloader.py:112] [CV Backend Developer] [32/100] Downloaded: cv_backend_developer_0035_5c505ae5.png (1410x1995, PNG, 106544 bytes)
+[2026-10-09 17:09:39] [INFO] [image_downloader.py:112] [CV Backend Developer] [33/100] Downloaded: cv_backend_developer_0033_54314b45.png (1632x2098, PNG, 165057 bytes)
+[2026-10-09 17:09:39] [INFO] [image_downloader.py:112] [CV Backend Developer] [34/100] Downloaded: cv_backend_developer_0034_c896216a.png (1632x2098, PNG, 174905 bytes)
+[2026-10-09 17:09:40] [INFO] [image_downloader.py:112] [CV Backend Developer] [35/100] Downloaded: cv_backend_developer_0036_a646dc92.jpg (1407x1990, JPEG, 183070 bytes)
+[2026-10-09 17:09:40] [INFO] [image_downloader.py:112] [CV Backend Developer] [36/100] Downloaded: cv_backend_developer_0037_6dddccb9.jpg (1407x1990, JPEG, 163347 bytes)
+[2026-10-09 17:09:40] [INFO] [image_downloader.py:112] [CV Backend Developer] [37/100] Downloaded: cv_backend_developer_0040_4d91fe48.png (799x1030, PNG, 56829 bytes)
+[2026-10-09 17:09:40] [INFO] [image_downloader.py:112] [CV Backend Developer] [38/100] Downloaded: cv_backend_developer_0039_d3992b54.jpg (1099x1653, JPEG, 445597 bytes)
+[2026-10-09 17:09:40] [INFO] [image_downloader.py:112] [CV Backend Developer] [39/100] Downloaded: cv_backend_developer_0041_53e9d885.png (1410x1995, PNG, 119667 bytes)
+[2026-10-09 17:09:40] [INFO] [image_downloader.py:112] [CV Backend Developer] [40/100] Downloaded: cv_backend_developer_0043_8419ca2a.png (1410x1995, PNG, 148842 bytes)
+[2026-10-09 17:09:40] [INFO] [image_downloader.py:112] [CV Backend Developer] [41/100] Downloaded: cv_backend_developer_0045_d554ae42.jpg (1407x1990, JPEG, 170256 bytes)
+[2026-10-09 17:09:41] [INFO] [image_downloader.py:112] [CV Backend Developer] [42/100] Downloaded: cv_backend_developer_0042_d85c779b.jpg (2000x2200, JPEG, 320049 bytes)
+[2026-10-09 17:09:41] [INFO] [image_downloader.py:112] [CV Backend Developer] [43/100] Downloaded: cv_backend_developer_0038_b5266fd6.png (730x1024, PNG, 356811 bytes)
+[2026-10-09 17:09:42] [INFO] [image_downloader.py:112] [CV Backend Developer] [44/100] Downloaded: cv_backend_developer_0044_699f5f7d.jpg (1407x1990, JPEG, 162243 bytes)
+[2026-10-09 17:09:42] [INFO] [image_downloader.py:112] [CV Backend Developer] [45/100] Downloaded: cv_backend_developer_0047_0c78e0fe.png (2483x3508, PNG, 232975 bytes)
+[2026-10-09 17:09:42] [INFO] [image_downloader.py:112] [CV Backend Developer] [46/100] Downloaded: cv_backend_developer_0046_245d7e24.png (800x1032, PNG, 82947 bytes)
+[2026-10-09 17:09:42] [INFO] [image_downloader.py:112] [CV Backend Developer] [47/100] Downloaded: cv_backend_developer_0051_2afc5a0d.png (750x1061, PNG, 329844 bytes)
+[2026-10-09 17:09:42] [INFO] [image_downloader.py:112] [CV Backend Developer] [48/100] Downloaded: cv_backend_developer_0050_33536655.png (1410x1995, PNG, 145184 bytes)
+[2026-10-09 17:09:42] [INFO] [image_downloader.py:112] [CV Backend Developer] [49/100] Downloaded: cv_backend_developer_0048_88bbc2f4.webp (776x1024, WEBP, 83960 bytes)
+[2026-10-09 17:09:42] [INFO] [image_downloader.py:112] [CV Backend Developer] [50/100] Downloaded: cv_backend_developer_0054_62bbe720.png (430x608, PNG, 161016 bytes)
+[2026-10-09 17:09:42] [INFO] [image_downloader.py:112] [CV Backend Developer] [51/100] Downloaded: cv_backend_developer_0053_81b2f41f.png (640x905, PNG, 80882 bytes)
+[2026-10-09 17:09:43] [INFO] [image_downloader.py:112] [CV Backend Developer] [52/100] Downloaded: cv_backend_developer_0056_c524d1c4.png (1410x1995, PNG, 170592 bytes)
+[2026-10-09 17:09:43] [INFO] [image_downloader.py:112] [CV Backend Developer] [53/100] Downloaded: cv_backend_developer_0049_e0518328.jpg (1407x1990, JPEG, 170555 bytes)
+[2026-10-09 17:09:43] [INFO] [image_downloader.py:112] [CV Backend Developer] [54/100] Downloaded: cv_backend_developer_0058_688df839.png (1410x1995, PNG, 96924 bytes)
+[2026-10-09 17:09:44] [INFO] [image_downloader.py:112] [CV Backend Developer] [55/100] Downloaded: cv_backend_developer_0055_6cce6cd8.jpg (1407x1990, JPEG, 167041 bytes)
+[2026-10-09 17:09:44] [INFO] [image_downloader.py:112] [CV Backend Developer] [56/100] Downloaded: cv_backend_developer_0052_e209f0ab.jpg (1200x1700, JPEG, 622065 bytes)
+[2026-10-09 17:09:44] [INFO] [image_downloader.py:112] [CV Backend Developer] [57/100] Downloaded: cv_backend_developer_0061_ee243c31.png (1410x1995, PNG, 175292 bytes)
+[2026-10-09 17:09:44] [INFO] [image_downloader.py:112] [CV Backend Developer] [58/100] Downloaded: cv_backend_developer_0057_1edffd80.png (759x1024, PNG, 459861 bytes)
+[2026-10-09 17:09:45] [INFO] [image_downloader.py:112] [CV Backend Developer] [59/100] Downloaded: cv_backend_developer_0060_f9313c46.png (1410x1995, PNG, 193880 bytes)
+[2026-10-09 17:09:45] [INFO] [image_downloader.py:112] [CV Backend Developer] [60/100] Downloaded: cv_backend_developer_0062_607733e2.webp (776x1024, WEBP, 87862 bytes)
+[2026-10-09 17:09:45] [INFO] [image_downloader.py:112] [CV Backend Developer] [61/100] Downloaded: cv_backend_developer_0059_2fde2fa5.png (1200x627, PNG, 271380 bytes)
+[2026-10-09 17:09:45] [INFO] [image_downloader.py:112] [CV Backend Developer] [62/100] Downloaded: cv_backend_developer_0066_a10c2eab.png (1758x3483, PNG, 232001 bytes)
+[2026-10-09 17:09:46] [INFO] [image_downloader.py:112] [CV Backend Developer] [63/100] Downloaded: cv_backend_developer_0064_9d55ec19.png (1632x2098, PNG, 193636 bytes)
+[2026-10-09 17:09:46] [INFO] [image_downloader.py:112] [CV Backend Developer] [64/100] Downloaded: cv_backend_developer_0068_ef810f66.jpg (940x1330, JPEG, 154755 bytes)
+[2026-10-09 17:09:46] [INFO] [image_downloader.py:112] [CV Backend Developer] [65/100] Downloaded: cv_backend_developer_0065_694f7b74.webp (776x1024, WEBP, 92936 bytes)
+[2026-10-09 17:09:46] [INFO] [image_downloader.py:112] [CV Backend Developer] [66/100] Downloaded: cv_backend_developer_0069_b88d5d17.png (1410x1995, PNG, 131496 bytes)
+[2026-10-09 17:09:46] [INFO] [image_downloader.py:112] [CV Backend Developer] [67/100] Downloaded: cv_backend_developer_0067_7782f75c.png (1410x1995, PNG, 139981 bytes)
+[2026-10-09 17:09:46] [INFO] [image_downloader.py:112] [CV Backend Developer] [68/100] Downloaded: cv_backend_developer_0072_7a3e49ad.webp (1240x1755, WEBP, 130176 bytes)
+[2026-10-09 17:09:47] [INFO] [image_downloader.py:112] [CV Backend Developer] [69/100] Downloaded: cv_backend_developer_0070_7c40e911.webp (776x1024, WEBP, 86112 bytes)
+[2026-10-09 17:09:47] [INFO] [image_downloader.py:112] [CV Backend Developer] [70/100] Downloaded: cv_backend_developer_0074_ae4922e5.webp (700x1000, WEBP, 86778 bytes)
+[2026-10-09 17:09:47] [INFO] [image_downloader.py:112] [CV Backend Developer] [71/100] Downloaded: cv_backend_developer_0071_1a193911.png (1632x2098, PNG, 96166 bytes)
+[2026-10-09 17:09:48] [INFO] [image_downloader.py:112] [CV Backend Developer] [72/100] Downloaded: cv_backend_developer_0077_df2dbc5e.png (800x1070, PNG, 50902 bytes)
+[2026-10-09 17:09:48] [INFO] [image_downloader.py:112] [CV Backend Developer] [73/100] Downloaded: cv_backend_developer_0073_5d42da31.webp (1241x1754, WEBP, 123122 bytes)
+[2026-10-09 17:09:48] [INFO] [image_downloader.py:112] [CV Backend Developer] [74/100] Downloaded: cv_backend_developer_0075_1e452712.png (1468x2076, PNG, 321528 bytes)
+[2026-10-09 17:09:48] [INFO] [image_downloader.py:112] [CV Backend Developer] [75/100] Downloaded: cv_backend_developer_0080_8ebaf3a5.png (1632x2098, PNG, 181826 bytes)
+[2026-10-09 17:09:48] [INFO] [image_downloader.py:112] [CV Backend Developer] [76/100] Downloaded: cv_backend_developer_0076_d4ed0820.jpg (903x1278, JPEG, 184009 bytes)
+[2026-10-09 17:09:48] [INFO] [image_downloader.py:112] [CV Backend Developer] [77/100] Downloaded: cv_backend_developer_0082_a723436b.webp (1240x1755, WEBP, 167752 bytes)
+[2026-10-09 17:09:48] [INFO] [image_downloader.py:112] [CV Backend Developer] [78/100] Downloaded: cv_backend_developer_0081_0382f335.png (1410x1995, PNG, 118342 bytes)
+[2026-10-09 17:09:49] [INFO] [image_downloader.py:112] [CV Backend Developer] [79/100] Downloaded: cv_backend_developer_0079_3e641f81.png (1138x1536, PNG, 1000987 bytes)
+[2026-10-09 17:09:49] [INFO] [image_downloader.py:112] [CV Backend Developer] [80/100] Downloaded: cv_backend_developer_0085_891b6b38.jpg (850x1203, JPEG, 167056 bytes)
+[2026-10-09 17:09:49] [INFO] [image_downloader.py:112] [CV Backend Developer] [81/100] Downloaded: cv_backend_developer_0078_e10f3e9b.png (860x1240, PNG, 87684 bytes)
+[2026-10-09 17:09:49] [INFO] [image_downloader.py:112] [CV Backend Developer] [82/100] Downloaded: cv_backend_developer_0083_17eb055f.webp (1414x2000, WEBP, 356706 bytes)
+[2026-10-09 17:09:50] [INFO] [image_downloader.py:112] [CV Backend Developer] [83/100] Downloaded: cv_backend_developer_0086_ccc4b0d5.png (1410x1995, PNG, 170335 bytes)
+[2026-10-09 17:09:50] [INFO] [image_downloader.py:112] [CV Backend Developer] [84/100] Downloaded: cv_backend_developer_0088_b1bc9c50.jpg (740x740, JPEG, 199374 bytes)
+[2026-10-09 17:09:50] [INFO] [image_downloader.py:112] [CV Backend Developer] [85/100] Downloaded: cv_backend_developer_0087_3d1cb282.jpg (901x750, JPEG, 133803 bytes)
+[2026-10-09 17:09:51] [INFO] [image_downloader.py:112] [CV Backend Developer] [86/100] Downloaded: cv_backend_developer_0089_cd93fb8c.png (1700x2200, PNG, 463258 bytes)
+[2026-10-09 17:09:51] [INFO] [image_downloader.py:112] [CV Backend Developer] [87/100] Downloaded: cv_backend_developer_0092_7f0eafc6.png (1632x2098, PNG, 164306 bytes)
+[2026-10-09 17:09:51] [INFO] [image_downloader.py:112] [CV Backend Developer] [88/100] Downloaded: cv_backend_developer_0091_5ce62f7c.webp (1588x2056, WEBP, 134544 bytes)
+[2026-10-09 17:09:52] [INFO] [image_downloader.py:112] [CV Backend Developer] [89/100] Downloaded: cv_backend_developer_0090_6b25590c.webp (776x1024, WEBP, 83782 bytes)
+[2026-10-09 17:09:52] [INFO] [image_downloader.py:112] [CV Backend Developer] [90/100] Downloaded: cv_backend_developer_0094_0143e00b.webp (500x704, WEBP, 39108 bytes)
+[2026-10-09 17:09:52] [INFO] [image_downloader.py:112] [CV Backend Developer] [91/100] Downloaded: cv_backend_developer_0093_ca989864.png (712x546, PNG, 117250 bytes)
+[2026-10-09 17:09:52] [INFO] [image_downloader.py:112] [CV Backend Developer] [92/100] Downloaded: cv_backend_developer_0095_e8f36803.png (1410x1995, PNG, 175299 bytes)
+[2026-10-09 17:09:53] [INFO] [image_downloader.py:112] [CV Backend Developer] [93/100] Downloaded: cv_backend_developer_0097_d9697a62.png (1410x1995, PNG, 179444 bytes)
+[2026-10-09 17:09:53] [INFO] [image_downloader.py:112] [CV Backend Developer] [94/100] Downloaded: cv_backend_developer_0096_a168cbc1.webp (776x1024, WEBP, 88044 bytes)
+[2026-10-09 17:09:53] [INFO] [image_downloader.py:112] [CV Backend Developer] [95/100] Downloaded: cv_backend_developer_0098_9151cc2a.png (1410x1995, PNG, 126872 bytes)
+[2026-10-09 17:09:53] [INFO] [image_downloader.py:112] [CV Backend Developer] [96/100] Downloaded: cv_backend_developer_0100_07613162.webp (1240x1755, WEBP, 133884 bytes)
+[2026-10-09 17:09:53] [INFO] [image_downloader.py:112] [CV Backend Developer] [97/100] Downloaded: cv_backend_developer_0099_2707328e.avif (1400x1812, AVIF, 93685 bytes)
+[2026-10-09 17:09:54] [INFO] [image_downloader.py:112] [CV Backend Developer] [98/100] Downloaded: cv_backend_developer_0101_1c4c42db.png (1200x1697, PNG, 499344 bytes)
+[2026-10-09 17:09:54] [INFO] [image_downloader.py:112] [CV Backend Developer] [99/100] Downloaded: cv_backend_developer_0103_1f172294.webp (776x1024, WEBP, 84716 bytes)
+[2026-10-09 17:09:54] [INFO] [image_downloader.py:112] [CV Backend Developer] [100/100] Downloaded: cv_backend_developer_0102_4e3dd878.jpg (1407x1990, JPEG, 148026 bytes)
+[2026-10-09 17:09:54] [INFO] [image_downloader.py:118] Reached target image count (100) for keyword 'CV Backend Developer'. Cancelling remaining downloads.
+[2026-10-09 17:11:01] [INFO] [image_downloader.py:129] Completed keyword 'CV Backend Developer': 100/100 successfully downloaded.
+[2026-10-09 17:11:01] [INFO] [scraper.py:112] 
+============================================================
+[2026-10-09 17:11:01] [INFO] [scraper.py:113] SCRAPING TASK SUMMARY
+[2026-10-09 17:11:01] [INFO] [scraper.py:114] Total Elapsed Time    : 96.50 seconds
+[2026-10-09 17:11:01] [INFO] [scraper.py:115] Successfully Downloaded: 100 images
+[2026-10-09 17:11:01] [INFO] [scraper.py:116] Duplicates Skipped    : 1 images
+[2026-10-09 17:11:01] [INFO] [scraper.py:117] Rejected / Failed     : 0 images
+[2026-10-09 17:11:01] [INFO] [scraper.py:118] Dataset Output Path   : /home/hadiyanfaikar/Documents/Scrapping-CV-google/google_images_dataset
+[2026-10-09 17:11:01] [INFO] [scraper.py:119] Metadata CSV File     : /home/hadiyanfaikar/Documents/Scrapping-CV-google/google_images_dataset/metadata/images.csv
+[2026-10-09 17:11:01] [INFO] [scraper.py:120] ============================================================
+[2026-10-09 17:14:23] [INFO] [scraper.py:38] ============================================================
+[2026-10-09 17:14:23] [INFO] [scraper.py:39] Google Images Scraper v1.0.0 Started
+[2026-10-09 17:14:23] [INFO] [scraper.py:40] Target Keywords     : ['CV Backend Developer']
+[2026-10-09 17:14:23] [INFO] [scraper.py:41] Max Images / Keyword: 100
+[2026-10-09 17:14:23] [INFO] [scraper.py:42] Search Engine       : google
+[2026-10-09 17:14:23] [INFO] [scraper.py:43] Output Directory    : /home/hadiyanfaikar/Documents/Scrapping-CV-google/google_images_dataset
+[2026-10-09 17:14:23] [INFO] [scraper.py:44] Min Dimensions      : 200x200
+[2026-10-09 17:14:23] [INFO] [scraper.py:45] Allowed Formats     : ['JPEG', 'JPG', 'PNG', 'WEBP', 'AVIF']
+[2026-10-09 17:14:23] [INFO] [scraper.py:46] Concurrency Workers : 5
+[2026-10-09 17:14:23] [INFO] [scraper.py:47] ============================================================
+[2026-10-09 17:14:23] [INFO] [scraper.py:76] 
+Processing keyword [1/1]: 'CV Backend Developer'
+[2026-10-09 17:14:23] [INFO] [browser_searcher.py:35] Launching Playwright (firefox, headless=False) for keyword: 'CV Backend Developer'
+[2026-10-09 17:14:23] [ERROR] [scraper.py:101] Error processing keyword 'CV Backend Developer': name 'Path' is not defined
+Traceback (most recent call last):
+  File "/home/hadiyanfaikar/Documents/Scrapping-CV-google/scraper.py", line 81, in main
+    candidates = searcher.search(keyword=keyword, max_results=fetch_target)
+  File "/home/hadiyanfaikar/Documents/Scrapping-CV-google/src/search/browser_searcher.py", line 40, in search
+    profile_dir = Path(self.config.output_dir) / ".browser_profile"
+                  ^^^^
+NameError: name 'Path' is not defined
+[2026-10-09 17:14:23] [INFO] [scraper.py:112] 
+============================================================
+[2026-10-09 17:14:23] [INFO] [scraper.py:113] SCRAPING TASK SUMMARY
+[2026-10-09 17:14:23] [INFO] [scraper.py:114] Total Elapsed Time    : 0.00 seconds
+[2026-10-09 17:14:23] [INFO] [scraper.py:115] Successfully Downloaded: 0 images
+[2026-10-09 17:14:23] [INFO] [scraper.py:116] Duplicates Skipped    : 0 images
+[2026-10-09 17:14:23] [INFO] [scraper.py:117] Rejected / Failed     : 0 images
+[2026-10-09 17:14:23] [INFO] [scraper.py:118] Dataset Output Path   : /home/hadiyanfaikar/Documents/Scrapping-CV-google/google_images_dataset
+[2026-10-09 17:14:23] [INFO] [scraper.py:119] Metadata CSV File     : /home/hadiyanfaikar/Documents/Scrapping-CV-google/google_images_dataset/metadata/images.csv
+[2026-10-09 17:14:23] [INFO] [scraper.py:120] ============================================================
+[2026-10-09 17:14:54] [INFO] [scraper.py:38] ============================================================
+[2026-10-09 17:14:54] [INFO] [scraper.py:39] Google Images Scraper v1.0.0 Started
+[2026-10-09 17:14:54] [INFO] [scraper.py:40] Target Keywords     : ['CV Backend Developer']
+[2026-10-09 17:14:54] [INFO] [scraper.py:41] Max Images / Keyword: 100
+[2026-10-09 17:14:54] [INFO] [scraper.py:42] Search Engine       : google
+[2026-10-09 17:14:54] [INFO] [scraper.py:43] Output Directory    : /home/hadiyanfaikar/Documents/Scrapping-CV-google/google_images_dataset
+[2026-10-09 17:14:54] [INFO] [scraper.py:44] Min Dimensions      : 200x200
+[2026-10-09 17:14:54] [INFO] [scraper.py:45] Allowed Formats     : ['JPEG', 'JPG', 'PNG', 'WEBP', 'AVIF']
+[2026-10-09 17:14:54] [INFO] [scraper.py:46] Concurrency Workers : 5
+[2026-10-09 17:14:54] [INFO] [scraper.py:47] ============================================================
+[2026-10-09 17:14:54] [INFO] [scraper.py:76] 
+Processing keyword [1/1]: 'CV Backend Developer'
+[2026-10-09 17:14:54] [INFO] [browser_searcher.py:35] Launching Playwright (firefox, headless=False) for keyword: 'CV Backend Developer'
+[2026-10-09 17:14:54] [ERROR] [scraper.py:101] Error processing keyword 'CV Backend Developer': name 'Path' is not defined
+Traceback (most recent call last):
+  File "/home/hadiyanfaikar/Documents/Scrapping-CV-google/scraper.py", line 81, in main
+    candidates = searcher.search(keyword=keyword, max_results=fetch_target)
+  File "/home/hadiyanfaikar/Documents/Scrapping-CV-google/src/search/browser_searcher.py", line 40, in search
+    profile_dir = Path(self.config.output_dir) / ".browser_profile"
+                  ^^^^
+NameError: name 'Path' is not defined
+[2026-10-09 17:14:54] [INFO] [scraper.py:112] 
+============================================================
+[2026-10-09 17:14:54] [INFO] [scraper.py:113] SCRAPING TASK SUMMARY
+[2026-10-09 17:14:54] [INFO] [scraper.py:114] Total Elapsed Time    : 0.00 seconds
+[2026-10-09 17:14:54] [INFO] [scraper.py:115] Successfully Downloaded: 0 images
+[2026-10-09 17:14:54] [INFO] [scraper.py:116] Duplicates Skipped    : 0 images
+[2026-10-09 17:14:54] [INFO] [scraper.py:117] Rejected / Failed     : 0 images
+[2026-10-09 17:14:54] [INFO] [scraper.py:118] Dataset Output Path   : /home/hadiyanfaikar/Documents/Scrapping-CV-google/google_images_dataset
+[2026-10-09 17:14:54] [INFO] [scraper.py:119] Metadata CSV File     : /home/hadiyanfaikar/Documents/Scrapping-CV-google/google_images_dataset/metadata/images.csv
+[2026-10-09 17:14:54] [INFO] [scraper.py:120] ============================================================
+[2026-10-09 17:15:45] [INFO] [scraper.py:38] ============================================================
+[2026-10-09 17:15:45] [INFO] [scraper.py:39] Google Images Scraper v1.0.0 Started
+[2026-10-09 17:15:45] [INFO] [scraper.py:40] Target Keywords     : ['CV Backend Developer']
+[2026-10-09 17:15:45] [INFO] [scraper.py:41] Max Images / Keyword: 100
+[2026-10-09 17:15:45] [INFO] [scraper.py:42] Search Engine       : google
+[2026-10-09 17:15:45] [INFO] [scraper.py:43] Output Directory    : /home/hadiyanfaikar/Documents/Scrapping-CV-google/google_images_dataset
+[2026-10-09 17:15:45] [INFO] [scraper.py:44] Min Dimensions      : 200x200
+[2026-10-09 17:15:45] [INFO] [scraper.py:45] Allowed Formats     : ['JPEG', 'JPG', 'PNG', 'WEBP', 'AVIF']
+[2026-10-09 17:15:45] [INFO] [scraper.py:46] Concurrency Workers : 5
+[2026-10-09 17:15:45] [INFO] [scraper.py:47] ============================================================
+[2026-10-09 17:15:45] [INFO] [scraper.py:76] 
+Processing keyword [1/1]: 'CV Backend Developer'
+[2026-10-09 17:15:45] [INFO] [browser_searcher.py:36] Launching Playwright (firefox, headless=False) for keyword: 'CV Backend Developer'
+[2026-10-09 17:15:47] [INFO] [browser_searcher.py:86] Navigating to: https://www.google.com/search?q=CV+Backend+Developer&udm=2
+[2026-10-09 17:15:50] [WARNING] [browser_searcher.py:100] ============================================================
+[2026-10-09 17:15:50] [WARNING] [browser_searcher.py:101] [VERIFIKASI GOOGLE CAPTCHA TERDETEKSI]
+[2026-10-09 17:15:50] [WARNING] [browser_searcher.py:102] Jendela browser sedang terbuka di layar Anda.
+[2026-10-09 17:15:50] [WARNING] [browser_searcher.py:103] Silakan selesaikan CAPTCHA di browser (menunggu hingga 60 detik)...
+[2026-10-09 17:15:50] [WARNING] [browser_searcher.py:104] ============================================================
+[2026-10-09 17:16:42] [INFO] [browser_searcher.py:112] Verifikasi CAPTCHA berhasil! Melanjutkan ekstraksi gambar...
+[2026-10-09 17:16:44] [INFO] [browser_searcher.py:137] Extracting high-resolution images via preview pane inspection...
+[2026-10-09 17:46:27] [INFO] [browser_searcher.py:143] Collected 24/200 images via preview panel. Extracting additional candidates from structured page data...
+[2026-10-09 17:46:27] [WARNING] [browser_searcher.py:152] Could not reach 200 original URLs (got 92). Checking thumbnail fallbacks...
+[2026-10-09 17:46:27] [INFO] [browser_searcher.py:159] Extraction completed for keyword 'CV Backend Developer'. Found 198 candidate URLs.
+[2026-10-09 17:46:28] [INFO] [image_downloader.py:89] Starting download for keyword 'CV Backend Developer' (Found 198 candidates, target: 100)
+[2026-10-09 17:46:29] [INFO] [image_downloader.py:112] [CV Backend Developer] [1/100] Downloaded: cv_backend_developer_0004_f2bfe0a5.webp (800x1131, WEBP, 61734 bytes)
+[2026-10-09 17:46:29] [INFO] [image_downloader.py:112] [CV Backend Developer] [2/100] Downloaded: cv_backend_developer_0005_53211494.png (1410x1995, PNG, 118762 bytes)
+[2026-10-09 17:46:29] [INFO] [image_downloader.py:112] [CV Backend Developer] [3/100] Downloaded: cv_backend_developer_0007_59dd9290.png (1468x2076, PNG, 281362 bytes)
+[2026-10-09 17:46:29] [INFO] [image_downloader.py:112] [CV Backend Developer] [4/100] Downloaded: cv_backend_developer_0006_68ca29ed.png (1410x1995, PNG, 71761 bytes)
+[2026-10-09 17:46:30] [INFO] [image_downloader.py:112] [CV Backend Developer] [5/100] Downloaded: cv_backend_developer_0002_a074d21f.png (1468x2076, PNG, 365776 bytes)
+[2026-10-09 17:46:30] [INFO] [image_downloader.py:112] [CV Backend Developer] [6/100] Downloaded: cv_backend_developer_0001_e9c53fb6.png (2483x3508, PNG, 235126 bytes)
+[2026-10-09 17:46:30] [INFO] [image_downloader.py:112] [CV Backend Developer] [7/100] Downloaded: cv_backend_developer_0003_c21334f5.png (2550x3300, PNG, 183065 bytes)
+[2026-10-09 17:46:30] [INFO] [image_downloader.py:112] [CV Backend Developer] [8/100] Downloaded: cv_backend_developer_0010_cc4fafc0.png (800x1032, PNG, 100937 bytes)
+[2026-10-09 17:46:30] [INFO] [image_downloader.py:112] [CV Backend Developer] [9/100] Downloaded: cv_backend_developer_0011_79ec6adb.png (1410x1995, PNG, 72686 bytes)
+[2026-10-09 17:46:30] [INFO] [image_downloader.py:112] [CV Backend Developer] [10/100] Downloaded: cv_backend_developer_0012_ef43dfd6.avif (1600x2071, AVIF, 168073 bytes)
+[2026-10-09 17:46:31] [INFO] [image_downloader.py:112] [CV Backend Developer] [11/100] Downloaded: cv_backend_developer_0009_15246f9e.jpg (1240x1755, JPEG, 588220 bytes)
+[2026-10-09 17:46:31] [INFO] [image_downloader.py:112] [CV Backend Developer] [12/100] Downloaded: cv_backend_developer_0008_d7220061.png (2550x3300, PNG, 186596 bytes)
+[2026-10-09 17:46:31] [INFO] [image_downloader.py:112] [CV Backend Developer] [13/100] Downloaded: cv_backend_developer_0017_e81e28f5.png (218x308, PNG, 6403 bytes)
+[2026-10-09 17:46:31] [INFO] [image_downloader.py:112] [CV Backend Developer] [14/100] Downloaded: cv_backend_developer_0015_811b4058.jpg (1653x2339, JPEG, 247738 bytes)
+[2026-10-09 17:46:31] [INFO] [image_downloader.py:112] [CV Backend Developer] [15/100] Downloaded: cv_backend_developer_0018_69bd6f09.webp (500x707, WEBP, 45426 bytes)
+[2026-10-09 17:46:31] [INFO] [image_downloader.py:112] [CV Backend Developer] [16/100] Downloaded: cv_backend_developer_0013_f49715d3.png (800x1032, PNG, 110723 bytes)
+[2026-10-09 17:46:31] [INFO] [image_downloader.py:112] [CV Backend Developer] [17/100] Downloaded: cv_backend_developer_0020_bb6e8953.webp (500x707, WEBP, 46668 bytes)
+[2026-10-09 17:46:31] [INFO] [image_downloader.py:112] [CV Backend Developer] [18/100] Downloaded: cv_backend_developer_0014_0c78e0fe.png (2483x3508, PNG, 232975 bytes)
+[2026-10-09 17:46:32] [INFO] [image_downloader.py:112] [CV Backend Developer] [19/100] Downloaded: cv_backend_developer_0023_08a17c98.webp (962x1251, WEBP, 103966 bytes)
+[2026-10-09 17:46:32] [INFO] [image_downloader.py:112] [CV Backend Developer] [20/100] Downloaded: cv_backend_developer_0024_1d4437d7.jpg (860x781, JPEG, 81138 bytes)
+[2026-10-09 17:46:32] [INFO] [image_downloader.py:112] [CV Backend Developer] [21/100] Downloaded: cv_backend_developer_0019_84e15b5a.png (800x1032, PNG, 139545 bytes)
+[2026-10-09 17:46:32] [INFO] [image_downloader.py:112] [CV Backend Developer] [22/100] Downloaded: cv_backend_developer_0022_f6548bbf.webp (760x1075, WEBP, 103798 bytes)
+[2026-10-09 17:46:32] [INFO] [image_downloader.py:112] [CV Backend Developer] [23/100] Downloaded: cv_backend_developer_0016_d940edb6.jpg (800x1176, JPEG, 271185 bytes)
+[2026-10-09 17:46:32] [INFO] [image_downloader.py:112] [CV Backend Developer] [24/100] Downloaded: cv_backend_developer_0027_2707328e.avif (1400x1812, AVIF, 93685 bytes)
+[2026-10-09 17:46:33] [INFO] [image_downloader.py:112] [CV Backend Developer] [25/100] Downloaded: cv_backend_developer_0028_fc1f14f7.avif (1400x1812, AVIF, 125025 bytes)
+[2026-10-09 17:46:33] [INFO] [image_downloader.py:112] [CV Backend Developer] [26/100] Downloaded: cv_backend_developer_0029_4e4047ac.webp (800x1131, WEBP, 64566 bytes)
+[2026-10-09 17:46:33] [INFO] [image_downloader.py:112] [CV Backend Developer] [27/100] Downloaded: cv_backend_developer_0021_d84f83fd.avif (1920x2716, AVIF, 442479 bytes)
+[2026-10-09 17:46:33] [INFO] [image_downloader.py:112] [CV Backend Developer] [28/100] Downloaded: cv_backend_developer_0031_af5d6cd0.jpg (2000x2200, JPEG, 326472 bytes)
+[2026-10-09 17:46:33] [INFO] [image_downloader.py:112] [CV Backend Developer] [29/100] Downloaded: cv_backend_developer_0025_ea627dcd.png (2479x3506, PNG, 734418 bytes)
+[2026-10-09 17:46:33] [INFO] [image_downloader.py:112] [CV Backend Developer] [30/100] Downloaded: cv_backend_developer_0026_10311584.png (800x1032, PNG, 130245 bytes)
+[2026-10-09 17:46:34] [INFO] [image_downloader.py:112] [CV Backend Developer] [31/100] Downloaded: cv_backend_developer_0033_9d603930.webp (1190x1683, WEBP, 220902 bytes)
+[2026-10-09 17:46:34] [INFO] [image_downloader.py:112] [CV Backend Developer] [32/100] Downloaded: cv_backend_developer_0030_6fbb1331.jpg (1407x1990, JPEG, 170591 bytes)
+[2026-10-09 17:46:34] [INFO] [image_downloader.py:112] [CV Backend Developer] [33/100] Downloaded: cv_backend_developer_0032_8c4c18c2.webp (2382x3369, WEBP, 437270 bytes)
+[2026-10-09 17:46:35] [INFO] [image_downloader.py:112] [CV Backend Developer] [34/100] Downloaded: cv_backend_developer_0036_4afaa436.png (800x1032, PNG, 136694 bytes)
+[2026-10-09 17:46:35] [INFO] [image_downloader.py:112] [CV Backend Developer] [35/100] Downloaded: cv_backend_developer_0035_43a277b9.jpg (1407x1990, JPEG, 184625 bytes)
+[2026-10-09 17:46:35] [INFO] [image_downloader.py:112] [CV Backend Developer] [36/100] Downloaded: cv_backend_developer_0034_4161d99c.webp (800x1131, WEBP, 71658 bytes)
+[2026-10-09 17:46:35] [INFO] [image_downloader.py:112] [CV Backend Developer] [37/100] Downloaded: cv_backend_developer_0037_fede9f46.png (1410x1995, PNG, 189164 bytes)
+[2026-10-09 17:46:35] [INFO] [image_downloader.py:112] [CV Backend Developer] [38/100] Downloaded: cv_backend_developer_0039_de3b4149.png (424x600, PNG, 53276 bytes)
+[2026-10-09 17:46:35] [INFO] [image_downloader.py:112] [CV Backend Developer] [39/100] Downloaded: cv_backend_developer_0038_4d70a52a.avif (1239x1754, AVIF, 91600 bytes)
+[2026-10-09 17:46:35] [INFO] [image_downloader.py:112] [CV Backend Developer] [40/100] Downloaded: cv_backend_developer_0041_463119f4.webp (500x707, WEBP, 46776 bytes)
+[2026-10-09 17:46:36] [INFO] [image_downloader.py:112] [CV Backend Developer] [41/100] Downloaded: cv_backend_developer_0042_3bd5979a.png (1410x1995, PNG, 166357 bytes)
+[2026-10-09 17:46:36] [INFO] [image_downloader.py:112] [CV Backend Developer] [42/100] Downloaded: cv_backend_developer_0040_f1f779a4.jpg (724x1024, JPEG, 58458 bytes)
+[2026-10-09 17:46:36] [INFO] [image_downloader.py:112] [CV Backend Developer] [43/100] Downloaded: cv_backend_developer_0048_41544091.png (800x1032, PNG, 125858 bytes)
+[2026-10-09 17:46:36] [INFO] [image_downloader.py:112] [CV Backend Developer] [44/100] Downloaded: cv_backend_developer_0044_80232157.jpg (2000x2200, JPEG, 354126 bytes)
+[2026-10-09 17:46:36] [INFO] [image_downloader.py:112] [CV Backend Developer] [45/100] Downloaded: cv_backend_developer_0050_1e452712.png (1468x2076, PNG, 321528 bytes)
+[2026-10-09 17:46:36] [INFO] [image_downloader.py:112] [CV Backend Developer] [46/100] Downloaded: cv_backend_developer_0043_023299eb.jpg (1407x1990, JPEG, 161362 bytes)
+[2026-10-09 17:46:37] [INFO] [image_downloader.py:112] [CV Backend Developer] [47/100] Downloaded: cv_backend_developer_0046_a34890ca.jpg (1407x1990, JPEG, 176126 bytes)
+[2026-10-09 17:46:37] [INFO] [image_downloader.py:112] [CV Backend Developer] [48/100] Downloaded: cv_backend_developer_0047_719cb334.webp (800x1131, WEBP, 65958 bytes)
+[2026-10-09 17:46:37] [INFO] [image_downloader.py:112] [CV Backend Developer] [49/100] Downloaded: cv_backend_developer_0049_70212a71.jpg (1440x2036, JPEG, 393615 bytes)
+[2026-10-09 17:46:38] [INFO] [image_downloader.py:112] [CV Backend Developer] [50/100] Downloaded: cv_backend_developer_0051_920e297f.webp (1072x1427, WEBP, 132636 bytes)
+[2026-10-09 17:46:38] [INFO] [image_downloader.py:112] [CV Backend Developer] [51/100] Downloaded: cv_backend_developer_0054_b6d694b6.jpg (794x1120, JPEG, 91274 bytes)
+[2026-10-09 17:46:38] [INFO] [image_downloader.py:112] [CV Backend Developer] [52/100] Downloaded: cv_backend_developer_0055_13ec1bee.webp (1040x1472, WEBP, 108084 bytes)
+[2026-10-09 17:46:39] [INFO] [image_downloader.py:112] [CV Backend Developer] [53/100] Downloaded: cv_backend_developer_0057_6336e67e.jpg (1200x1698, JPEG, 222402 bytes)
+[2026-10-09 17:46:39] [INFO] [image_downloader.py:112] [CV Backend Developer] [54/100] Downloaded: cv_backend_developer_0056_a4d8d4d9.webp (1200x630, WEBP, 93500 bytes)
+[2026-10-09 17:46:39] [INFO] [image_downloader.py:112] [CV Backend Developer] [55/100] Downloaded: cv_backend_developer_0059_da75e7a1.png (424x600, PNG, 42354 bytes)
+[2026-10-09 17:46:39] [INFO] [image_downloader.py:112] [CV Backend Developer] [56/100] Downloaded: cv_backend_developer_0053_72c69ff7.avif (1809x2560, AVIF, 129351 bytes)
+[2026-10-09 17:46:40] [INFO] [image_downloader.py:112] [CV Backend Developer] [57/100] Downloaded: cv_backend_developer_0058_eb3e3380.webp (712x950, WEBP, 50596 bytes)
+[2026-10-09 17:46:40] [INFO] [image_downloader.py:112] [CV Backend Developer] [58/100] Downloaded: cv_backend_developer_0060_3974828a.png (1200x630, PNG, 91936 bytes)
+[2026-10-09 17:46:40] [INFO] [image_downloader.py:112] [CV Backend Developer] [59/100] Downloaded: cv_backend_developer_0061_b994fa07.jpg (1240x1755, JPEG, 842790 bytes)
+[2026-10-09 17:46:41] [INFO] [image_downloader.py:112] [CV Backend Developer] [60/100] Downloaded: cv_backend_developer_0063_24d8a905.jpg (1440x2036, JPEG, 264392 bytes)
+[2026-10-09 17:46:41] [INFO] [image_downloader.py:112] [CV Backend Developer] [61/100] Downloaded: cv_backend_developer_0062_05fb23fa.jpg (1407x1990, JPEG, 161197 bytes)
+[2026-10-09 17:46:41] [INFO] [image_downloader.py:112] [CV Backend Developer] [62/100] Downloaded: cv_backend_developer_0065_31b8b48b.jpg (1536x2058, JPEG, 231658 bytes)
+[2026-10-09 17:46:41] [INFO] [image_downloader.py:112] [CV Backend Developer] [63/100] Downloaded: cv_backend_developer_0067_dd3234bf.png (800x1032, PNG, 145472 bytes)
+[2026-10-09 17:46:41] [INFO] [image_downloader.py:112] [CV Backend Developer] [64/100] Downloaded: cv_backend_developer_0066_587a170d.webp (712x950, WEBP, 46834 bytes)
+[2026-10-09 17:46:42] [INFO] [image_downloader.py:112] [CV Backend Developer] [65/100] Downloaded: cv_backend_developer_0070_54cf78b3.webp (622x794, WEBP, 89154 bytes)
+[2026-10-09 17:46:42] [INFO] [image_downloader.py:112] [CV Backend Developer] [66/100] Downloaded: cv_backend_developer_0064_b58143af.jpg (800x392, JPEG, 127757 bytes)
+[2026-10-09 17:46:42] [INFO] [image_downloader.py:112] [CV Backend Developer] [67/100] Downloaded: cv_backend_developer_0072_9af62d92.webp (500x704, WEBP, 33842 bytes)
+[2026-10-09 17:46:42] [INFO] [image_downloader.py:112] [CV Backend Developer] [68/100] Downloaded: cv_backend_developer_0071_1723b8b2.png (1200x630, PNG, 41554 bytes)
+[2026-10-09 17:46:42] [INFO] [image_downloader.py:112] [CV Backend Developer] [69/100] Downloaded: cv_backend_developer_0073_8f593032.webp (1600x662, WEBP, 38964 bytes)
+[2026-10-09 17:46:42] [INFO] [image_downloader.py:112] [CV Backend Developer] [70/100] Downloaded: cv_backend_developer_0069_1b6a3502.webp (1072x1427, WEBP, 137466 bytes)
+[2026-10-09 17:46:42] [INFO] [image_downloader.py:112] [CV Backend Developer] [71/100] Downloaded: cv_backend_developer_0068_6cdeac2d.png (1200x675, PNG, 138387 bytes)
+[2026-10-09 17:46:43] [INFO] [image_downloader.py:112] [CV Backend Developer] [72/100] Downloaded: cv_backend_developer_0077_1003999b.jpg (1200x1700, JPEG, 523877 bytes)
+[2026-10-09 17:46:43] [INFO] [image_downloader.py:112] [CV Backend Developer] [73/100] Downloaded: cv_backend_developer_0074_135d4a54.jpg (700x990, JPEG, 99693 bytes)
+[2026-10-09 17:46:44] [INFO] [image_downloader.py:112] [CV Backend Developer] [74/100] Downloaded: cv_backend_developer_0075_8ba50876.jpg (2481x3509, JPEG, 594961 bytes)
+[2026-10-09 17:46:44] [INFO] [image_downloader.py:112] [CV Backend Developer] [75/100] Downloaded: cv_backend_developer_0078_986f3e0f.webp (1588x2246, WEBP, 277866 bytes)
+[2026-10-09 17:46:44] [INFO] [image_downloader.py:112] [CV Backend Developer] [76/100] Downloaded: cv_backend_developer_0076_9ba9abeb.webp (800x1131, WEBP, 73040 bytes)
+[2026-10-09 17:46:45] [INFO] [image_downloader.py:112] [CV Backend Developer] [77/100] Downloaded: cv_backend_developer_0081_abf950c8.webp (1241x1754, WEBP, 216838 bytes)
+[2026-10-09 17:46:45] [INFO] [image_downloader.py:112] [CV Backend Developer] [78/100] Downloaded: cv_backend_developer_0082_b5aa2f53.jpg (794x1120, JPEG, 87816 bytes)
+[2026-10-09 17:46:46] [INFO] [image_downloader.py:112] [CV Backend Developer] [79/100] Downloaded: cv_backend_developer_0083_cf4e15cd.png (1108x919, PNG, 105825 bytes)
+[2026-10-09 17:46:47] [INFO] [image_downloader.py:112] [CV Backend Developer] [80/100] Downloaded: cv_backend_developer_0084_63c7e855.avif (1920x2717, AVIF, 117754 bytes)
+[2026-10-09 17:46:47] [INFO] [image_downloader.py:112] [CV Backend Developer] [81/100] Downloaded: cv_backend_developer_0085_3ae460e7.jpg (1407x1990, JPEG, 183954 bytes)
+[2026-10-09 17:46:47] [INFO] [image_downloader.py:112] [CV Backend Developer] [82/100] Downloaded: cv_backend_developer_0080_c63ba08a.avif (1920x2716, AVIF, 352269 bytes)
+[2026-10-09 17:46:48] [INFO] [image_downloader.py:112] [CV Backend Developer] [83/100] Downloaded: cv_backend_developer_0087_c2ca7d71.webp (1588x2246, WEBP, 232450 bytes)
+[2026-10-09 17:46:48] [INFO] [image_downloader.py:112] [CV Backend Developer] [84/100] Downloaded: cv_backend_developer_0086_d9974330.png (424x600, PNG, 36584 bytes)
+[2026-10-09 17:46:50] [INFO] [image_downloader.py:112] [CV Backend Developer] [85/100] Downloaded: cv_backend_developer_0089_e9f65a80.jpg (584x825, JPEG, 57542 bytes)
+[2026-10-09 17:46:50] [INFO] [image_downloader.py:112] [CV Backend Developer] [86/100] Downloaded: cv_backend_developer_0090_690db456.jpg (3651x2920, JPEG, 448486 bytes)
+[2026-10-09 17:46:51] [INFO] [image_downloader.py:112] [CV Backend Developer] [87/100] Downloaded: cv_backend_developer_0094_83577c1a.png (384x384, PNG, 19639 bytes)
+[2026-10-09 17:46:51] [INFO] [image_downloader.py:112] [CV Backend Developer] [88/100] Downloaded: cv_backend_developer_0092_d2121d2b.png (800x1032, PNG, 89048 bytes)
+[2026-10-09 17:46:51] [INFO] [image_downloader.py:112] [CV Backend Developer] [89/100] Downloaded: cv_backend_developer_0096_102a81f8.jpg (376x531, JPEG, 22479 bytes)
+[2026-10-09 17:46:51] [INFO] [image_downloader.py:112] [CV Backend Developer] [90/100] Downloaded: cv_backend_developer_0098_2a8844f1.jpg (487x629, JPEG, 52441 bytes)
+[2026-10-09 17:46:51] [INFO] [image_downloader.py:112] [CV Backend Developer] [91/100] Downloaded: cv_backend_developer_0099_c7763ff5.png (466x659, PNG, 42643 bytes)
+[2026-10-09 17:46:51] [INFO] [image_downloader.py:112] [CV Backend Developer] [92/100] Downloaded: cv_backend_developer_0097_fd1c9641.png (376x531, PNG, 21204 bytes)
+[2026-10-09 17:46:52] [INFO] [image_downloader.py:112] [CV Backend Developer] [93/100] Downloaded: cv_backend_developer_0091_9976718a.jpg (1240x1755, JPEG, 672504 bytes)
+[2026-10-09 17:46:52] [INFO] [image_downloader.py:112] [CV Backend Developer] [94/100] Downloaded: cv_backend_developer_0100_e1e61789.png (393x508, PNG, 25828 bytes)
+[2026-10-09 17:46:52] [INFO] [image_downloader.py:112] [CV Backend Developer] [95/100] Downloaded: cv_backend_developer_0101_4e8a4d4c.jpg (376x531, JPEG, 28371 bytes)
+[2026-10-09 17:46:52] [INFO] [image_downloader.py:112] [CV Backend Developer] [96/100] Downloaded: cv_backend_developer_0103_2c06819c.png (375x533, PNG, 19195 bytes)
+[2026-10-09 17:46:52] [INFO] [image_downloader.py:112] [CV Backend Developer] [97/100] Downloaded: cv_backend_developer_0104_a1853a2d.png (466x659, PNG, 34306 bytes)
+[2026-10-09 17:46:52] [INFO] [image_downloader.py:112] [CV Backend Developer] [98/100] Downloaded: cv_backend_developer_0105_3e5ddd86.png (393x508, PNG, 28289 bytes)
+[2026-10-09 17:46:52] [INFO] [image_downloader.py:112] [CV Backend Developer] [99/100] Downloaded: cv_backend_developer_0106_1c70c005.jpg (487x630, JPEG, 39763 bytes)
+[2026-10-09 17:46:52] [INFO] [image_downloader.py:112] [CV Backend Developer] [100/100] Downloaded: cv_backend_developer_0102_6d1a0e46.jpg (375x533, JPEG, 25972 bytes)
+[2026-10-09 17:46:52] [INFO] [image_downloader.py:118] Reached target image count (100) for keyword 'CV Backend Developer'. Cancelling remaining downloads.
+[2026-10-09 17:47:56] [INFO] [image_downloader.py:129] Completed keyword 'CV Backend Developer': 100/100 successfully downloaded.
+[2026-10-09 17:47:56] [INFO] [scraper.py:112] 
+============================================================
+[2026-10-09 17:47:56] [INFO] [scraper.py:113] SCRAPING TASK SUMMARY
+[2026-10-09 17:47:56] [INFO] [scraper.py:114] Total Elapsed Time    : 1930.69 seconds
+[2026-10-09 17:47:56] [INFO] [scraper.py:115] Successfully Downloaded: 100 images
+[2026-10-09 17:47:56] [INFO] [scraper.py:116] Duplicates Skipped    : 0 images
+[2026-10-09 17:47:56] [INFO] [scraper.py:117] Rejected / Failed     : 4 images
+[2026-10-09 17:47:56] [INFO] [scraper.py:118] Dataset Output Path   : /home/hadiyanfaikar/Documents/Scrapping-CV-google/google_images_dataset
+[2026-10-09 17:47:56] [INFO] [scraper.py:119] Metadata CSV File     : /home/hadiyanfaikar/Documents/Scrapping-CV-google/google_images_dataset/metadata/images.csv
+[2026-10-09 17:47:56] [INFO] [scraper.py:120] ============================================================
